@@ -438,7 +438,7 @@ section h2 {
 /* Teaching assistant */
 #teachingAssistant {
     /*background: url("/images/pennCampus.jpg");*/
-    background: linear-gradient(rgba(250, 250, 250, 0), rgba(250, 250, 250, 0)), url('/images/collegeGreen2.jpg') no-repeat center center;
+    background: linear-gradient(rgba(250, 250, 250, 0), rgba(250, 250, 250, 0)), url('/images/ta.jpg') no-repeat center center;
     min-height: 101%;
     min-width: 101%;
     background-size: cover;
@@ -446,6 +446,7 @@ section h2 {
 }
 
 #taHeader {
+    color: white;
     padding-bottom: 80px;
 }
 
@@ -456,12 +457,12 @@ section h2 {
     height: 18%;
     /*width: 568px; *//*710px;*/
     /*height: 205.6px;*/ /*257px;*/
-    margin-right: 8%;
+    margin-right: 6%;
 }
 
 #link110 {
     /*color: #44464b;*/
-    color: black;
+    color: white;
 }
 
 #taText {
@@ -469,12 +470,12 @@ section h2 {
     font-size: 18px;
     font-weight: 385;
     line-height: 1.5;
-    margin-right: -8%;
+    /*margin-right: -8%;*/
     /*margin-top: 1%;*/
 }
 
 #cis110website {
-    color: black;
+    color: white;
     font-size: 18px;
     text-decoration: none;
     padding-top: 18px;

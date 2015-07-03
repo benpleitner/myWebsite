@@ -495,7 +495,7 @@ section h2 {
     text-align: center;
 }
 
-#teachingPills .nav-pills > li > a {
+/*#teachingPills .nav-pills > li > a {
     color: #44464b;
 }
 
@@ -517,7 +517,7 @@ section h2 {
 #teachingPills .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #44464b;
     background-color: rgba(250, 250, 250, 0.4);
-}
+}*/
 
 #teachingPills {  
     text-align: center;

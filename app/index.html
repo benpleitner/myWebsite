@@ -82,106 +82,105 @@
                     <div class="row">
                       <section ng-controller="YearController as year" id="courseworkSection">
                           <div class="centered-pills">
-                    <ul class="nav nav-pills" id="years">
-                            <li ng-class="{ active: year.isSet(1) }">
-                                  <a class="year" href ng-click="year.setYear(1)">Freshman Year</a></li>
-                                <li ng-class="{ active: year.isSet(2) }">
-                                  <a class="year" href ng-click="year.setYear(2)">Sophomore Year</a></li>
+                            <ul class="nav nav-pills" id="years">
+                              <li ng-class="{ active: year.isSet(1) }">
+                                <a class="year" href ng-click="year.setYear(1)">Freshman Year</a></li>
+                              <li ng-class="{ active: year.isSet(2) }">
+                                <a class="year" href ng-click="year.setYear(2)">Sophomore Year</a></li>
                             </ul>
-                        </div>
+                          </div>
 
                           <div ng-show="year.isSet(1)">
-                      <div class="container">
-                        <h2 class="semester">Fall Semester</h2>
-                        <div class="row semesterBorder">
-                          <div class="classA" id="FFall">
-                            <dl id="cis110">
-                              <dt class="class">CIS 110</dt>
-                              <dd>Introduction to Computer Programming</dd>
-                            </dl>
-                            <dl>
-                              <dt class="class">MATH 114</dt>
-                              <dd>Multivariable Calculus</dd>
-                            </dl>
-                            <dl>
-                              <dt class="class">PHYS 150</dt>
-                              <dd>Physics I</dd>
-                            </dl>
-                            <dl>
-                              <dt class="class">ECON 001</dt>
-                              <dd>Introduction to Microeconomics</dd>
-                            </dl>
-                            <dl>
-                              <dt class="class">OPIM 321</dt>
-                              <dd>Introduction to Management Science</dd>
-                            </dl>
-                          </div>
-                        </div>
+                            <div class="container">
+                              <h2 class="semester">Fall Semester</h2>
+                              <div class="row semesterBorder">
+                                <div class="classA" id="FFall">
+                                  <dl id="cis110">
+                                    <dt class="class">CIS 110</dt>
+                                    <dd>Introduction to Computer Programming</dd>
+                                  </dl>
+                                  <dl>
+                                    <dt class="class">MATH 114</dt>
+                                    <dd>Multivariable Calculus</dd>
+                                  </dl>
+                                  <dl>
+                                    <dt class="class">PHYS 150</dt>
+                                    <dd>Physics I</dd>
+                                  </dl>
+                                  <dl>
+                                    <dt class="class">ECON 001</dt>
+                                    <dd>Introduction to Microeconomics</dd>
+                                  </dl>
+                                  <dl>
+                                    <dt class="class">OPIM 321</dt>
+                                    <dd>Introduction to Management Science</dd>
+                                  </dl>
+                                </div>
+                              </div>
 
-                        <h2 class="semester spring">Spring Semester</h2>
-                        <div class="row semesterBorder">
-                          <div class="classA" id="aFix">
-                            <dl>
-                              <dt class="class">CIS 120</dt>
-                              <dd>Programing Languages and Techniques I</dd>
-                            </dl>
-                            <dl>
-                              <dt class="class">CIS 160</dt>
-                              <dd>Mathemaical Foundations of Computer Science</dd>
-                            </dl>
-                            <dl>
-                              <dt class="class">PHYS 151</dt>
-                              <dd>Physics II</dd>
-                            </dl>
-                            <dl>
-                              <dt class="class">ECON 002</dt>
-                              <dd>Introduction to Macroeconomics</dd>
-                            </dl>
-                            <dl>
-                              <dt class="class">GRMN 101</dt>
-                              <dd>Introduction to German</dd>
-                            </dl>
-                          </div>
-                        </div>
-                      </div>
+                              <h2 class="semester spring">Spring Semester</h2>
+                              <div class="row semesterBorder">
+                                <div class="classA" id="aFix">
+                                  <dl>
+                                    <dt class="class">CIS 120</dt>
+                                    <dd>Programing Languages and Techniques I</dd>
+                                  </dl>
+                                  <dl>
+                                    <dt class="class">CIS 160</dt>
+                                    <dd>Mathemaical Foundations of Computer Science</dd>
+                                  </dl>
+                                  <dl>
+                                    <dt class="class">PHYS 151</dt>
+                                    <dd>Physics II</dd>
+                                  </dl>
+                                  <dl>
+                                    <dt class="class">ECON 002</dt>
+                                    <dd>Introduction to Macroeconomics</dd>
+                                  </dl>
+                                  <dl>
+                                    <dt class="class">GRMN 101</dt>
+                                    <dd>Introduction to German</dd>
+                                  </dl>
+                                </div>
+                              </div>
+                            </div>
                           </div>
 
                           <div ng-show="year.isSet(2)">
-                      <div class="container">
-                        <h2 class="semester">Fall Semester</h2>
-                        <div class="row semesterBorder">
-                          <div class="classA" id="sophomoreFall">
-                            <dl>
-                              <dt class="class">CIS 121</dt>
-                              <dd>Data Structures and Algorithms</dd>
-                            </dl>
-                            <dl>
-                              <dt class="class">CIS 240</dt>
-                              <dd>Introduction to Computer Architecture</dd>
-                            </dl>
-                            <dl>
-                                <dt class="class">CIS 197</dt>
-                                <dd>JavaScript</dd>
-                            </dl>
-                            <dl>
-                              <dt class="class">NETS 212</dt>
-                              <dd>Scalable and Cloud Computing</dd>
-                            </dl>
-                            <dl>
-                              <dt class="class">MATH 240</dt>
-                              <dd>Linear Algebra and Differential Equations</dd>
-                            </dl>
-                            <dl>
-                              <dt class="class">EAS 203</dt>
-                              <dd>Engineering Ethics</dd>
-                            </dl>
+                            <div class="container">
+                              <h2 class="semester">Fall Semester</h2>
+                              <div class="row semesterBorder">
+                                <div class="classA" id="sophomoreFall">
+                                  <dl>
+                                    <dt class="class">CIS 121</dt>
+                                    <dd>Data Structures and Algorithms</dd>
+                                  </dl>
+                                  <dl>
+                                    <dt class="class">CIS 240</dt>
+                                    <dd>Introduction to Computer Architecture</dd>
+                                  </dl>
+                                  <dl>
+                                      <dt class="class">CIS 197</dt>
+                                      <dd>JavaScript</dd>
+                                  </dl>
+                                  <dl>
+                                    <dt class="class">NETS 212</dt>
+                                    <dd>Scalable and Cloud Computing</dd>
+                                  </dl>
+                                  <dl>
+                                    <dt class="class">MATH 240</dt>
+                                    <dd>Linear Algebra and Differential Equations</dd>
+                                  </dl>
+                                  <dl>
+                                    <dt class="class">EAS 203</dt>
+                                    <dd>Engineering Ethics</dd>
+                                  </dl>
+                                </div>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                  </div>
                         </section>
                     </div>
-              <!-- <img src="pennLogoCoursework.jpg"> -->
                 </div>
             </section>
 
@@ -194,8 +193,6 @@
                             <h2 id="taHeader">Teaching Assistant</h2>
                         </div>
                     </div>
-
-                    <!-- <h2 id="taTitle">CIS 110 (Introduction to Computer Programming)</h2> -->
 
                    <div class="row">
                         <div class="110ta">
@@ -216,60 +213,47 @@
 
             <section class="experience" id="teachingTimeline">
               <div class="container">
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <h3 class="text-center">Timeline of Tutoring/Teaching</h3>
-                        <ul class="timeline">
-                          <li>
-                            <div class="timeline-image">
-                              <img class="img-circle img-responsive" src="https://i.vimeocdn.com/portrait/8247024_300x300.webp">
-                            </div>
-                            <div class="timeline-panel">
-                              <div class="timeline-heading">
-                                <h4 class="subheading">Student Tutor</h4>
-                              </div>
-                              <div class="timeline-body">
-                                <p class="text-muted">
-                                  In my Junior and Senior year of high school I participated in a student tutoring program where I tutored Freshmen in Latin and physics weekly. I also held   review sessions for math and Latin midterms and final exams.
-                                </p>
-                              </div>
-                            </div>
-                            <div class="line"></div>
-                          </li>
-                          <li class="timeline-inverted">
-                            <div class="timeline-image">
-                              <img class="img-circle img-responsive" src="/images/pennTimeline.png">
-                            </div>
-                            <div class="timeline-panel">
-                              <div class="timeline-heading">
-                                <h4 class="subheading">West Philadelphia Tutoring Project</h4>
-                              </div>
-                              <div class="timeline-body">
-                                <p class="text-muted">
-                                  I worked one-on-one with students attending West Philadelphia High School, teaching primarily algebra and gemoetry.
-                                </p>
-                              </div>
-                            </div>
-                            <div class="line"></div>
-                          </li>
-                          <li>
-                            <div class="timeline-image">
-                              <img class="img-circle img-responsive" src="/images/pennTimeline.png">
-                            </div>
-                            <div class="timeline-panel">
-                              <div class="timeline-heading">
-                                <h4 class="subheading">Teaching Assistant</h4>
-                              </div>
-                              <div class="timeline-body">
-                                <p class="text-muted">
-                                  Look above for the description and responsibilities of this position.
-                                </p>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2 id="teachingHeader">History of Teaching</h2>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <section ng-controller="TeachingController as teaching" id="teachHist">
+                    <div ng-show="teaching.isSet(1)">
+                      <p class="shownText">In my Junior and Senior year of high school I participated in a student tutoring program where I tutored Freshmen in Latin and physics weekly. I also held   review sessions for midterms and final exams.</p>
                     </div>
+
+                    <div ng-show="teaching.isSet(2)">
+                      <p class="shownText">I worked one-on-one with students attending West Philadelphia High School, teaching primarily algebra and gemoetry.</p>
+                    </div>
+
+                    <div ng-show="teaching.isSet(3)">
+                      <p class="shownText">Look above for the description and responsibilities of this position. Roughly 400 students enroll each semester and the average recitation size 20 students.</p>
+                    </div>
+
+                    <div id="teachingPills">
+                      <ul class="nav nav-pills">
+                        <li ng-class="{ active: teaching.isSet(1) }" class="col-md-4">
+                          <a href ng-mouseover="teaching.setTeaching(1)">
+                            <h4>Student Tutor</h4>
+                            <h5>September 2012 - June 2014</h5>
+                          </a></li>
+                        <li ng-class="{ active: teaching.isSet(2) }" class="col-md-4">
+                          <a href ng-mouseover="teaching.setTeaching(2)">
+                            <h4>West Philadelphia Tutoring Project</h4>
+                            <h5> September 2014 - December 2014</h5>
+                          </a></li>
+                        <li ng-class="{ active: teaching.isSet(3) }" class="col-md-4">
+                          <a href ng-mouseover="teaching.setTeaching(3)">
+                            <h4>Teaching Assistant</h4>
+                            <h5>January 2015 - present</h5>
+                          </a></li>
+                      </ul>
+                    </div>
+                  </section>
+                </div>
               </div>
             </section>
 
@@ -301,51 +285,6 @@
                     </div>
                 </div>
             </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--             <section class="experience" id="about">
-                <div class="container" id="experienceB">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h2 id="experienceHeader">Experience</h2>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="enertiv">
-                            <img class="img-responsive" id="enertivPic" src="images/enertiv.svg">
-                            <p class="jobDescription"><a href="http://www.enertiv.com/" id="enertivLink">Enertiv</a> is an energy data and analytics company, providing data driven energy efficiency analysis to commercial buildings. With a combination of software and hardware, they work to develop affordable energy solutions for clients through real-time building data analysis. I worked primarily on data visualization using JavaScript frameworks, such as <span class="specificSkill">D3</span>, <span class="specificSkill">crossfilter</span>, and <span class="specificSkill">dc.js</span>. I used <span class="specificSkill">HTML</span> and <span class="specificSkill">CSS</span> to display my graphs and charts on the web. I also gained valuable experience working with the Enertiv API.</p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="110ta">
-                            <img class="img-responsive" id="taPic" src="images/taPic.png">
-                            <p class="jobDescription" id="taText">I am a teaching assistant for <a href="http://www.cis.upenn.edu/~cis110/current/">CIS 110</a> (Introduction to Computer Programming). I teach a recitation, hold weekly office hours for students, and grade homework and exams.</p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="enertiv">
-                            <img class="img-responsive" id="judgePic" src="images/judge.jpg">
-                            <p class="jobDescription">I performed research on precedent relating to the cases heard by Judge Chin, fact checked opinions and briefs, and participated in discussions with Judge Chin and his Clerks about heard cases.</p>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
-            <!-- <section id="slide1" data-stellar-background-ratio="0.6"></section> -->
 
             <section id="skills">
                 <div class="container">

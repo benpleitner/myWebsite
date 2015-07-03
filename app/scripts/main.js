@@ -2,7 +2,7 @@
 (function() {
   var app = angular.module("coursework", []);
 
-  app.controller('YearController', function(){
+  app.controller("YearController", function(){
     this.year = 2;
 
     this.setYear = function(value){
@@ -11,6 +11,18 @@
 
     this.isSet = function(value){
       return this.year === value;
+    };
+  });
+
+  app.controller("TeachingController", function(){
+    this.teach = 1;
+
+    this.setTeaching = function(value){
+      this.teach = value;
+    };
+
+    this.isSet = function(value){
+      return this.teach === value;
     };
   });
 })();

@@ -15,7 +15,7 @@
   });
 
   app.controller("TeachingController", function(){
-    this.teach = 1;
+    this.teach = 3;
 
     this.setTeaching = function(value){
       this.teach = value;
@@ -66,4 +66,11 @@ var myBarChart = new Chart(ctx).Bar(data, {
         return "Learned in free time";
       }
     }
+});
+
+jQuery(document).ready(function($) {
+    $(".counter").counterUp({
+        delay: 10,
+        time: 600
+    });
 });

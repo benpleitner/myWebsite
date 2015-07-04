@@ -486,7 +486,7 @@ section h2 {
 
 /* History of teaching */
 #teachingTimeline {
-    background-color: #dae4ee; /* #dae4ee, #006586 */
+    background-color: #f2f2f3; /* #dae4ee, #006586 */
 }
 
 #teachingHeader {
@@ -531,7 +531,11 @@ section h2 {
 }
 
 .shownText {
-    margin-left: 15px;
+    /*margin-left: 15px;*/
+    margin-left: 18%;
+    margin-right: 17%;
+    margin-top: -20px;
+    margin-bottom: 40px;
     font-size: 24px;
 }
 
@@ -733,6 +737,7 @@ footer {
 }
 
 .btn-geckoboard:hover {
+  -webkit-transition: background linear 100ms;
   background-color: #95001a;
   color: #eee9e9;
   text-decoration: none;

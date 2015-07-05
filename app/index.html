@@ -32,7 +32,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#" onclick="this.style.color='#95001a';">Benjamin Leitner</a>
+                    <a class="navbar-brand" href="index.html" onclick="this.style.color='#95001a';">Benjamin Leitner</a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="social-network social-circle navbar-left">
@@ -43,7 +43,7 @@
                     </ul>  
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" onclick="this.style.color='#95001a';">Resume</a></li>
+                        <li><a href="resume.html" onclick="this.style.color='#95001a';">Resume</a></li>
                         <li><a href="#" onclick="$('#coursework').animatescroll({scrollSpeed:1500}); this.style.color='#95001a';">Coursework</a></li>
                         <li><a href="#" onclick="$('#experienceE').animatescroll({scrollSpeed:1800}); this.style.color='#95001a';">Experience</a></li>
                         <li><a href="#" onclick="$('#skills').animatescroll({scrollSpeed:2000}); this.style.color='#95001a';">Skills</a></li>
@@ -223,7 +223,7 @@
                 <div class="row">
                   <section ng-controller="TeachingController as teaching" id="teachHist">
                     <div ng-show="teaching.isSet(1)">
-                      <p class="shownText">In my Junior and Senior year of high school I participated in a student tutoring program where I tutored Freshmen in Latin and physics weekly. I also held   review sessions for midterms and final exams.</p>
+                      <p class="shownText">In my Junior and Senior year of high school I participated in a student tutoring program where I tutored Freshmen in Latin and physics weekly. I also held review sessions for midterms and final exams.</p>
                     </div>
 
                     <div ng-show="teaching.isSet(2)">
@@ -233,6 +233,8 @@
                     <div ng-show="teaching.isSet(3)">
                       <p class="shownText">Look above for the description and responsibilities of this position. Roughly <span class="counter">400</span> students enroll each semester and the average recitation size <span class="counter">20</span> students.</p>
                     </div>
+
+                    <hr id="break">
 
                     <div id="teachingPills">
                       <ul class="nav nav-pills">

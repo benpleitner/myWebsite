@@ -2,6 +2,7 @@ body {
     font-family: "Open Sans",sans-serif;
     font-weight: 300;
     overflow-x: hidden;
+    text-rendering: optimizeLegibility;
 }
 /* @media (min-width: 1200px) sizes: 1200, 992, 768*/
 
@@ -539,6 +540,12 @@ section h2 {
     font-size: 24px;
 }
 
+#break {
+    background-color: #01256e;
+    height: 1px;
+    width: 75%;
+}
+
 #teachHist {
     margin-bottom: -75px;
 }
@@ -596,6 +603,10 @@ section h2 {
   -webkit-user-select: none;
   border: 1px solid transparent;
   border-radius: 0px;
+  -webkit-transition: color 0.3s ease, background 0.3s ease;
+  -moz-transition: color 0.3s ease, background 0.3s ease;
+  -ms-transition: color 0.3s ease, background 0.3s ease;
+  -o-transition: color 0.3s ease, background 0.3s ease;
 }
 
 strong {
@@ -615,6 +626,10 @@ strong {
 }
 
 #enertivButton .btn-geckoboard:hover {
+  -webkit-transition: color 0.3s ease, background 0.3s ease;
+  -moz-transition: color 0.3s ease, background 0.3s ease;
+  -ms-transition: color 0.3s ease, background 0.3s ease;
+  -o-transition: color 0.3s ease, background 0.3s ease;
   background-color: rgba(0, 0, 0, 0.8);
   color: rgba(250, 250, 250, 0.8);
   text-decoration: none;
@@ -722,6 +737,10 @@ footer {
   -webkit-user-select: none;
   border: 1px solid transparent;
   border-radius: 0px;
+  -webkit-transition: color 0.3s ease, background 0.3s ease;
+  -moz-transition: color 0.3s ease, background 0.3s ease;
+  -ms-transition: color 0.3s ease, background 0.3s ease;
+  -o-transition: color 0.3s ease, background 0.3s ease;
 }
 
 .btn-group-lg>.btn, .btn-lg {
@@ -737,7 +756,10 @@ footer {
 }
 
 .btn-geckoboard:hover {
-  -webkit-transition: background linear 100ms;
+  -webkit-transition: color 0.3s ease, background 0.3s ease;
+  -moz-transition: color 0.3s ease, background 0.3s ease;
+  -ms-transition: color 0.3s ease, background 0.3s ease;
+  -o-transition: color 0.3s ease, background 0.3s ease;
   background-color: #95001a;
   color: #eee9e9;
   text-decoration: none;

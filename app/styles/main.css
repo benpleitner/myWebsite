@@ -132,6 +132,7 @@ header .intro-text .name {
     font-family: "Open Sans",sans-serif;   
     font-size: 48px;
     font-weight: 300;
+    /*font-style: italic;*/
     line-height: 1.25;
     color: #01256e;
     padding-top: 20px;

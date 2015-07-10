@@ -14,20 +14,21 @@ nav.navbar-myPage {
 }
 
 nav.navbar-myPage a {
-    color: #95001a;
+    color: black;
     font-family: "Open Sans",sans-serif;
     font-weight: 300;
 }
 
 nav.navbar-myPage ul.navbar-nav a {
-    color: #95001a;
+    color: black;
     border-style: solid;
     border-width: 0 0 2px 0;
     border-color: rgba(0, 0, 0, 0.0);
+    transition: .5s;
 }
 
 nav.navbar-myPage .navbar-brand, nav.navbar-myPage .navbar-brand:hover {
-    color: #95001a;
+    color: black;
 }
 
 nav.navbar-myPage ul.navbar-nav a:hover,
@@ -38,19 +39,18 @@ nav.navbar-myPage ul.navbar-nav a:active {
 }
 
 nav.navbar-myPage ul.navbar-nav a:hover {
-    color: #95001a;
-    border-color: #95001a;
+    color: black;
+    border-color: black;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #95001a;
+    border-color: black;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #95001a;
+  background-color: black;
 }
 
-/* Social media links */
 /* Social Network Links */
 ul.social-network {
     list-style: none;
@@ -102,7 +102,7 @@ a.socialIcon:hover, .socialHoverClass {
     transition: all 0.2s;
 }
 .social-circle i {
-    color: #95001a;
+    color: black;
     transition: all 0.8s;
 }
 
@@ -237,6 +237,10 @@ hr {
   background-color: black;
   color: white;
   text-decoration: none;
+}
+
+#transcript {
+  padding-top: 40px;
 }
 
 /* Footer */

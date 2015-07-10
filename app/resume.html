@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="resume">
   <head>
     <meta charset="utf-8">
     <title>Resume - Benjamin Leitner</title>
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="bower_components/animate.css/animate.css">
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="styles/resume.css">
-    <link rel="stylesheet" href="stylesheets/screen.css">
+    <!-- <link rel="stylesheet" href="stylesheets/screen.css"> -->
     <link rel="shortcut icon" href="images/taPic.png">
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
   </head>
@@ -24,7 +24,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html" onclick="this.style.color='#95001a';">Benjamin Leitner</a>
+                    <a class="navbar-brand" href="index.html">Benjamin Leitner</a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="social-network social-circle navbar-left">
@@ -36,9 +36,9 @@
 
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="resume.html" onclick="this.style.color='#95001a';">Resume</a></li>
-                        <li><a href="#" onclick="$('#coursework').animatescroll({scrollSpeed:1500}); this.style.color='#95001a';">Coursework</a></li>
-                        <li><a href="#" onclick="$('#experienceE').animatescroll({scrollSpeed:1800}); this.style.color='#95001a';">Experience</a></li>
-                        <li><a href="#" onclick="$('#skills').animatescroll({scrollSpeed:2000}); this.style.color='#95001a';">Skills</a></li>
+                        <li><a href="index.html#coursework">Coursework</a></li>
+                        <li><a href="index.html#experience">Experience</a></li>
+                        <li><a href="index.html#skills">Skills</a></li>
                     </ul>
                 </div>
             </div>
@@ -151,8 +151,14 @@
 
                 <hr>
 
-                <div class="row center" id="stackButton">
+                <div class="row center" id="stackButton" ng-controller="TranscriptController as tran">
                     <a class="btn-geckoboard btn-outline btn-lg href" href="http://stackoverflow.com/users/5055013/ben-leitner?tab=profile" target="_blank">View my Stackoverflow profile</a>
+
+                    <!-- <a class="btn-geckoboard btn-outline btn-lg href" ng-click="tran.addClick()">View unofficial transcript</a>
+
+                    <div id="transcript" ng-show="tran.isEven()">
+                        <img src="/images/transcript.png">
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -160,5 +166,8 @@
         <footer>
             <div class="glyphicon glyphicon-chevron-up" onclick="$('body').animatescroll({scrollSpeed:1500});"></div>
         </footer>
+        
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="scripts/resume.js"></script>
   </body>
 </html>

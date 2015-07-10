@@ -30,7 +30,7 @@
 var ctx = document.getElementById("myChart").getContext("2d");
 
 var data = {
-    labels: ["Java", "HTML / CSS", "JavaScript", "OCaml", "Python"],
+    labels: ["Java", "HTML", "CSS", "JavaScript", "OCaml", "Python"],
     datasets: [
         {
             label: "My Programming Skills",
@@ -38,7 +38,7 @@ var data = {
             strokeColor: "rgba(151, 187, 205, 0.8)",
             highlightFill: "rgba(151, 187, 205, 0.75)",
             highlightStroke: "rgba(151, 187, 205, 1)",
-            data: [4, 3.000001, 3, 2.5, 1]
+            data: [4, 3.000001, 3.4, 3, 2.5, 1]
         }
     ]
 };
@@ -55,6 +55,9 @@ var myBarChart = new Chart(ctx).Bar(data, {
       }
       if (d.value == 3.000001) {
         return "Learned at Enertiv and free time";
+      }
+      if (d.value == 3.4) {
+        return "Learned Sass at Enertiv and Bootstrap in free time";
       }
       if (d.value == 3) {
         return "Learned at Enertiv and free time. Used Angular, D3, crossfilter, and dc.js";

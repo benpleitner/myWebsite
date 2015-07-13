@@ -44,9 +44,10 @@
 
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="resume.html" onclick="this.style.color='#95001a';">Resume</a></li>
-                        <li><a href="#" onclick="$('#coursework').animatescroll({scrollSpeed:1500}); this.style.color='#95001a';">Coursework</a></li>
-                        <li><a href="#" onclick="$('#experienceE').animatescroll({scrollSpeed:1800}); this.style.color='#95001a';">Experience</a></li>
-                        <li><a href="#" onclick="$('#skills').animatescroll({scrollSpeed:2000}); this.style.color='#95001a';">Skills</a></li>
+                        <li><a href="coursework.html">Coursework</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <!-- <li><a href="#" onclick="$('#experienceE').animatescroll({scrollSpeed:1800}); this.style.color='#95001a';">Experience</a></li>
+                        <li><a href="#" onclick="$('#skills').animatescroll({scrollSpeed:2000}); this.style.color='#95001a';">Skills</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -56,23 +57,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <!-- <img class="img-responsive img-circle" id="myPic" src="MyPicture.jpg"> -->
                         <div class="intro-text">
-                            <span class="name">Benjamin Leitner</span>
-                              <!-- <hr> -->
+                            <!-- <span class="name">Benjamin Leitner</span> -->
+                            <span class="name">About Me</span>
                             <div id="headerShadow">
                                 <p class="about">I am a rising Sophomore at the University of Pennsylvania's School of Engineering and Applied Science. I am pursuing a degree in Computer Science, as well as minors in Mathematics and Engineering Entrepreneurship. If there is one thing you should know about me, it's that I biked across the country a few summers ago. Links to my social networks are in the navbar. You can contact me at <a href="#" id="email">benpleitner@gmail.com</a> or <a href="#" id="phoneNumber">917-439-2952</a>.</p>
                             </div>
                         </div>
 
-                        <div class="glyphicon glyphicon-chevron-down" onclick="$('#coursework').animatescroll({scrollSpeed:1500});"></div>
+                        <!-- <div class="glyphicon glyphicon-chevron-down" onclick="$('#coursework').animatescroll({scrollSpeed:1500});"></div> -->
 
                     </div>
                 </div>
             </div>
         </header>
 
-        <div class="content-wrapper">
+<!--         <div class="content-wrapper">
             <section class="primary coursework" id="coursework">
                 <div class="container">
                     <div class="row">
@@ -185,8 +185,6 @@
                 </div>
             </section>
 
-<!--             <section id="slide" data-stellar-background-ratio="0.6"></section>
- -->
             <section class="experience" id="teachingAssistant">
                 <div class="container">
                     <div class="row">
@@ -234,8 +232,6 @@
                       <p class="shownText">Look above for the description and responsibilities of this position. Roughly <span class="counter">400</span> students enroll each semester and the average recitation size <span class="counter">20</span> students.</p>
                     </div>
 
-                    <!-- <hr id="break"> -->
-
                     <div id="teachingPills">
                       <ul class="nav nav-pills">
                         <li ng-class="{ active: teaching.isSet(1) }" class="col-md-4">
@@ -259,8 +255,6 @@
                 </div>
               </div>
             </section>
-
-            <!-- <section id="slide" data-stellar-background-ratio="0.6"></section> -->
 
             <section class="experience" id="experienceE">
                 <div class="container">
@@ -322,16 +316,6 @@
                 </div>
             </section>
 
-            <!-- <section id="aboutMe">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <h2>About Me</h2>
-                  </div>
-                </div>
-              </div>
-            </section> -->
-
             <footer class="container">
                 <div id="contactMe">
                     <div class="glyphicon glyphicon-chevron-up" onclick="$('body').animatescroll({scrollSpeed:2000});"></div>
@@ -371,33 +355,9 @@
 
                 </div>
             </footer>
-        </div>
-
-        <!-- <script>
-          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-          e.src='//www.google-analytics.com/analytics.js';
-          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-          ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script> -->
+        </div> -->
 
         <script src="bower_components/angular/angular.js"></script>
-
-
-        <!-- <script src="bower_components/bootstrap/js/affix.js"></script>
-        <script src="bower_components/bootstrap/js/alert.js"></script>
-        <script src="bower_components/bootstrap/js/dropdown.js"></script>
-        <script src="bower_components/bootstrap/js/tooltip.js"></script>
-        <script src="bower_components/bootstrap/js/modal.js"></script>
-        <script src="bower_components/bootstrap/js/transition.js"></script>
-        <script src="bower_components/bootstrap/js/button.js"></script>
-        <script src="bower_components/bootstrap/js/popover.js"></script>
-        <script src="bower_components/bootstrap/js/carousel.js"></script>
-        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
-        <script src="bower_components/bootstrap/js/collapse.js"></script>
-        <script src="bower_components/bootstrap/js/tab.js"></script> -->
-
         <script src="scripts/main.js"></script>
   </body>
 </html>

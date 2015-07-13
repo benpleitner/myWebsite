@@ -14,13 +14,13 @@ nav.navbar-myPage {
 }
 
 nav.navbar-myPage a {
-    color: black;
+    color: #95001a;
     font-family: "Open Sans",sans-serif;
     font-weight: 300;
 }
 
 nav.navbar-myPage ul.navbar-nav a {
-    color: black;
+    color: #95001a;
     border-style: solid;
     border-width: 0 0 2px 0;
     border-color: rgba(0, 0, 0, 0.0);
@@ -32,7 +32,7 @@ nav.navbar-myPage ul.navbar-nav a {
 }
 
 nav.navbar-myPage .navbar-brand, nav.navbar-myPage .navbar-brand:hover {
-    color: black;
+    color: #95001a;
 }
 
 nav.navbar-myPage ul.navbar-nav a:hover,
@@ -43,16 +43,16 @@ nav.navbar-myPage ul.navbar-nav a:active {
 }
 
 nav.navbar-myPage ul.navbar-nav a:hover {
-    color: black;
-    border-color: black;
+    color: #95001a;
+    border-color: #95001a;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: black;
+    border-color: #95001a;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: black;
+  background-color: #95001a;
 }
 
 /* Social Network Links */
@@ -106,7 +106,7 @@ a.socialIcon:hover, .socialHoverClass {
     transition: all 0.2s;
 }
 .social-circle i {
-    color: black;
+    color: #95001a;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
     -o-transition: all 0.8s;
@@ -152,7 +152,8 @@ ul li {
 }
 
 .sectionHeader {
-    color: #4a4a4a;
+    /*color: #4a4a4a;*/
+    color: #01256e;
     font-size: 22px;
     line-height: 1.2em;
     text-transform: uppercase;
@@ -162,7 +163,8 @@ ul li {
 }
 
 h3 {
-    color:  rgba(26, 26, 26, 0.9);
+    /*color:  rgba(26, 26, 26, 0.9);*/
+    color: #95001a;
     font-size: 16px;
     line-height: 1.2em;
     text-transform: uppercase;
@@ -232,9 +234,11 @@ hr {
 }
 
 .btn-outline {
-  color: #161516;
+  /*color: #161516;*/
+  color: #062946;
   background-color: transparent;
-  border-color: #161516;
+  /*border-color: #161516;*/
+  border-color: #062946;
 }
 
 .btn-geckoboard:hover {
@@ -242,7 +246,8 @@ hr {
   -moz-transition: color 0.3s ease, background 0.3s ease;
   -ms-transition: color 0.3s ease, background 0.3s ease;
   -o-transition: color 0.3s ease, background 0.3s ease;
-  background-color: black;
+  /*background-color: black;*/
+  background-color: #062946;
   color: white;
   text-decoration: none;
 }
@@ -253,7 +258,8 @@ hr {
 
 /* Footer */
 footer {
-    background-color: black;
+    /*background-color: black;*/
+    background-color: #062946;
     min-height: 100px;
     text-align: center;
     width: 100%;

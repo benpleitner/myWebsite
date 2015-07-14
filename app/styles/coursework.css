@@ -120,7 +120,7 @@ a.socialIcon:hover, .socialHoverClass {
 /* Navigation tabs */
 #courseworkSection {
     margin-top: -75px;
-    margin-bottom: -75px;
+    margin-bottom: -100px;
 }
 
 .nav-pills > li > a {
@@ -263,6 +263,6 @@ section h2 {
 }
 
 #fill {
-    height: 400px;
+    height: 257px;
     background-color: #f2f2f3;
 }

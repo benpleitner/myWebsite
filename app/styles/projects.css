@@ -1,7 +1,7 @@
 /* Navbar */
 nav.navbar-myPage {
-    background-color: #f2f2f3;
-    border-color: #f2f2f3;
+    background-color: rgba(235, 234, 237, 0);
+    border-color: rgba(235, 234, 237, 0);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -46,10 +46,6 @@ nav.navbar-myPage ul.navbar-nav a:hover {
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #95001a;
-}
-
-.navbar {
-    margin-bottom: 0px;
 }
 
 /* Social Network Links */

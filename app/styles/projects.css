@@ -1,9 +1,12 @@
 /* Navbar */
 nav.navbar-myPage {
+    /*background-color: #062946;
+    border-color: #062946;*/
     background-color: rgba(235, 234, 237, 0);
     border-color: rgba(235, 234, 237, 0);
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 nav.navbar-myPage a {
@@ -105,4 +108,22 @@ a.socialIcon:hover, .socialHoverClass {
     -o-transition: all 0.8s;
     -ms-transition: all 0.8s;
     transition: all 0.8s;
+}
+
+.projectPic {
+    width: 80%;
+    height: 80%;
+}
+
+.center {
+    text-align: center;
+}
+
+section {
+    /*background-color: #062946;*/
+}
+
+.fill {
+    height: 460px;
+    /*background-color: #062946;*/
 }

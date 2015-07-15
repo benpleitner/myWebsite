@@ -1,9 +1,9 @@
 /* Navbar */
 nav.navbar-myPage {
-    /*background-color: #062946;
-    border-color: #062946;*/
-    background-color: rgba(235, 234, 237, 0);
-    border-color: rgba(235, 234, 237, 0);
+    background-color: #dfd8d3;
+    border-color: #dfd8d3;
+    /*background-color: rgba(235, 234, 237, 0);
+    border-color: rgba(235, 234, 237, 0);*/
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 0px;
@@ -112,10 +112,10 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 section {
-    /*background-color: #062946;*/
+    background-color: #dfd8d3;
 }
 
 .fill {
     height: 460px;
-    /*background-color: #062946;*/
+    background-color: #dfd8d3;
 }

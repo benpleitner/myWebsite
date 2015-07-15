@@ -797,3 +797,9 @@ footer {
   -webkit-animation: caret 500ms infinite;
           animation: caret 500ms infinite;
 }
+
+@media (max-width: 767px) {
+    #navbar .social-network {
+        display: none;
+    }
+}

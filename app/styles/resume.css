@@ -5,129 +5,6 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-/* Navbar */
-nav.navbar-myPage {
-    background-color: rgba(235, 234, 237, 0);
-    border-color: rgba(235, 234, 237, 0);
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-nav.navbar-myPage a {
-    color: #95001a;
-    font-family: "Open Sans",sans-serif;
-    font-weight: 300;
-}
-
-nav.navbar-myPage ul.navbar-nav a {
-    color: #95001a;
-    border-style: solid;
-    border-width: 0 0 2px 0;
-    border-color: rgba(0, 0, 0, 0.0);
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-}
-
-nav.navbar-myPage .navbar-brand, nav.navbar-myPage .navbar-brand:hover {
-    color: #95001a;
-}
-
-nav.navbar-myPage ul.navbar-nav a:hover,
-nav.navbar-myPage ul.navbar-nav a:visited,
-nav.navbar-myPage ul.navbar-nav a:focus,
-nav.navbar-myPage ul.navbar-nav a:active {
-    background-color: rgba(250, 250, 250, 0);
-}
-
-nav.navbar-myPage ul.navbar-nav a:hover {
-    color: #95001a;
-    border-color: #95001a;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: #95001a;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #95001a;
-}
-
-/* Social Network Links */
-ul.social-network {
-    list-style: none;
-    display: inline;
-    margin-left:0 !important;
-    padding: 0;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%)
-}
-ul.social-network li {
-    display: inline;
-    margin: 0 5px;
-}
-
-.social-network a.icoFacebook:hover i, .social-network a.icoLinkedin:hover i,
-.social-network a.icoEnvelope:hover i, .social-network a.icoGithub:hover i, {
-    color: #fff;
-}
-
-a.socialIcon:hover, .socialHoverClass {
-    color: #44BCDD;
-}
-
-.social-circle li a {
-    display: inline-block;
-    position: relative;
-    margin: 0 auto 0 auto;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    text-align: center;
-    width: 20px;
-    height: 20px;
-    font-size: 18px;
-}
-.social-circle li i {
-    text-align: center;
-}
-
-.social-circle li a:hover i, .triggeredHover {
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -ms--transform: rotate(360deg);
-    transform: rotate(360deg);
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    transition: all 0.2s;
-}
-.social-circle i {
-    color: #95001a;
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    -ms-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
-/*#topImage {
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    display: block;
-    top: -35%;
-
-    background: url("/images/statueOfLiberty.jpg") no-repeat center center;
-    height: 75%;
-    width: 100%;
-    background-size: cover;
-}*/
-
 #topImage {
     position: absolute;
     top: 0;
@@ -152,7 +29,6 @@ ul li {
 }
 
 .sectionHeader {
-    /*color: #4a4a4a;*/
     color: #01256e;
     font-size: 22px;
     line-height: 1.2em;
@@ -163,7 +39,6 @@ ul li {
 }
 
 h3 {
-    /*color:  rgba(26, 26, 26, 0.9);*/
     color: #95001a;
     font-size: 16px;
     line-height: 1.2em;
@@ -234,10 +109,8 @@ hr {
 }
 
 .btn-outline {
-  /*color: #161516;*/
   color: #062946;
   background-color: transparent;
-  /*border-color: #161516;*/
   border-color: #062946;
 }
 
@@ -246,7 +119,6 @@ hr {
   -moz-transition: color 0.3s ease, background 0.3s ease;
   -ms-transition: color 0.3s ease, background 0.3s ease;
   -o-transition: color 0.3s ease, background 0.3s ease;
-  /*background-color: black;*/
   background-color: #062946;
   color: white;
   text-decoration: none;
@@ -264,7 +136,6 @@ hr {
 
 /* Footer */
 footer {
-    /*background-color: black;*/
     background-color: #062946;
     min-height: 100px;
     text-align: center;

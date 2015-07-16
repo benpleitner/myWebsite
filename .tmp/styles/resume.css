@@ -244,6 +244,12 @@ hr {
   text-decoration: none;
 }
 
+.btn-geckoboard:focus {
+    background-color: rgba(0, 0, 0, 0);
+    color: #062946;
+    text-decoration: none;
+}
+
 #transcript {
   padding-top: 40px;
 }

@@ -1,12 +1,16 @@
+body {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+
 /* Navbar */
 nav.navbar-myPage {
-    background-color: #dfd8d3;
-    border-color: #dfd8d3;
-    /*background-color: rgba(235, 234, 237, 0);
-    border-color: rgba(235, 234, 237, 0);*/
+    background-color: rgba(235, 234, 237, 0);
+    border-color: rgba(235, 234, 237, 0);
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-bottom: 0px;
 }
 
 nav.navbar-myPage a {
@@ -110,6 +114,44 @@ a.socialIcon:hover, .socialHoverClass {
     transition: all 0.8s;
 }
 
+.background:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+
+    background: linear-gradient(rgba(250, 250, 250, 0.6), rgba(250, 250, 250, 0.6)), url("/images/ta2.jpg") no-repeat center center;
+    min-height: 101%;
+    min-width: 101%;
+    background-size: cover;
+    left: -2px;
+}
+
+.background {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+header {
+    text-align: center;
+    color: #01256e;
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 88%;
+    top: 0;
+    left: 0;
+}
+
+.row {
+    padding-top: 100px;
+}
+
 .projectPic {
     width: 80%;
     height: 80%;
@@ -117,15 +159,6 @@ a.socialIcon:hover, .socialHoverClass {
 
 .center {
     text-align: center;
-}
-
-section {
-    background-color: #dfd8d3;
-}
-
-.fill {
-    height: 460px;
-    background-color: #dfd8d3;
 }
 
 #enertivAPI {

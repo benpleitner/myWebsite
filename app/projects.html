@@ -1,17 +1,13 @@
 <!doctype html>
-<html ng-app="coursework">
+<html>
   <head>
     <meta charset="utf-8">
     <title>Benjamin Leitner</title>
     <meta name="viewport" content="width=device-width">
     <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/animatescroll/animatescroll.js"></script>
-    <script src="bower_components/Chart.js/Chart.js"></script>
-    <script src="bower_components/theaterjs/build/theater.js"></script>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="bower_components/animate.css/animate.css">
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
-    <!-- <link rel="stylesheet" href="styles/navbar.css"> -->
     <link rel="stylesheet" href="styles/projects.css">
     <link rel="shortcut icon" href="images/taPic.png">
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
@@ -23,7 +19,8 @@
     <script src="scripts/scripts.js"></script>
   </head>
   <body>
-          <nav class="navbar navbar-default navbar-myPage navbar-static-top">
+
+        <nav class="navbar navbar-default navbar-myPage navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -51,36 +48,30 @@
             </div>
         </nav>
 
-        <section>
-          <div class="container">
-            <div class="row">
+        <header class="background" id="page-top">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-6 center">
+                    <div id="enertivAPI">
+                      <div class="overlay">
+                        <span class="projectText">Enertiv API Extension</span>
+                        <hr>
+                        <span><a class="btn-geckoboard btn-outline btn-lg href" href="#">View Project</a></span>
+                      </div>
+                    </div>
+                  </div>
 
-              <div class="col-md-6 center">
-                <!-- <img src="/images/enertivAPI.png" class="projectPic"> -->
-                <div id="enertivAPI">
-                  <div class="overlay">
-                    <span class="projectText">Enertiv API Extension</span>
-                    <hr>
-                    <span><a class="btn-geckoboard btn-outline btn-lg href" href="#">View Project</a></span>
+                  <div class="col-md-6 center">
+                    <div id="myWebsite">
+                      <div class="overlay">
+                        <span class="projectText">My Website</span>
+                        <hr>
+                        <span><a class="btn-geckoboard btn-outline btn-lg href" href="#">View Project</a></span>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="col-md-6 center">
-                <!-- <img src="/images/myWebsite.png" class="projectPic"> -->
-                <div id="myWebsite">
-                  <div class="overlay">
-                    <span class="projectText">My Website</span>
-                    <hr>
-                    <span><a class="btn-geckoboard btn-outline btn-lg href" href="#">View Project</a></span>
-                  </div>
-                </div>
-              </div>
-              
             </div>
-          </div>
-        </section>
-
-        <div class="fill"></div>
+        </header>
   </body>
 </html>

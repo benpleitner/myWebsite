@@ -163,3 +163,14 @@ section h2 {
     height: 257px;
     background-color: #f2f2f3;
 }
+
+@media (max-width: 992px) {
+/*    .semester {
+        margin-left: -95px;
+    }
+
+    .row {
+      margin-right: -105px;
+      margin-left: -105px;
+    }*/
+}

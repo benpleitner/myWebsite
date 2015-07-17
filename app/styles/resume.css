@@ -5,20 +5,31 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+/*#topImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    background: url("/images/statueOfLiberty.jpg") no-repeat center -240px;
+    height: 40%;
+    width: 100%;
+}*/
+
 #topImage {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    -webkit-animation: feature-bg-anim 1.5s ease-in-out;
-    animation: feature-bg-anim 1.5s ease-in-out;
+
+    background: url("/images/statueOfLiberty2.jpg") no-repeat center center;
+    height: 42%;
+    width: 101%;
+    background-size: cover;
 }
 
-#topImage img {
-    margin-top: -295px;
-    width: 100%;
-}
 
 #resume {
     padding-top: 220px;

@@ -1,0 +1,1 @@
+!function(){var a=angular.module("coursework",[]);a.controller("YearController",function(){this.year=2,this.setYear=function(a){this.year=a},this.isSet=function(a){return this.year===a}}),a.controller("TeachingController",function(){this.teach=3,this.setTeaching=function(a){this.teach=a},this.isSet=function(a){return this.teach===a}})}();

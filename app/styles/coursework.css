@@ -137,7 +137,7 @@ dd {
     padding-top: 50px;
 }
 
-#FFal, #aFix, #sophomoreFall {
+#FFal, #aFix, .sophomoreFall {
     margin-right: 0px;
     margin-left: 0px;
 }
@@ -164,13 +164,48 @@ section h2 {
     background-color: #f2f2f3;
 }
 
+#smallScreen {
+    display: none;
+}
+
 @media (max-width: 992px) {
-/*    .semester {
-        margin-left: -95px;
+    .secondRowFFall dl {
+        width: 50%;
     }
 
-    .row {
-      margin-right: -105px;
-      margin-left: -105px;
-    }*/
+    #FFall, .sFall, #aFix {
+        display: none;
+    }
+
+    #smallScreen {
+        display: initial;
+    }
+
+    dl {
+        width: 33%;
+    }
+
+    .secondRow, .secondRowFFall {
+        margin-top: -40px;
+    }
+
+    .container {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sFall, #FFall, #aFix {
+        display: initial;
+        display: normal;
+    }
+
+    #smallScreen {
+        display: none;
+    }
+
+    dl {
+        width: 100%;
+    }
 }

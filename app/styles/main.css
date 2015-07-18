@@ -100,8 +100,21 @@ header .intro-text .about {
     text-decoration: none;
 }
 
+/* Fix the navbar social media icons on smaller screens */
+#smallScreen {
+    display: none;
+}
+
 @media (max-width: 767px) {
-    #navbar .social-network {
+    #fullWidth {
         display: none;
+    }
+
+    #smallScreen {
+        display: inherit;
+        margin-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 20px;
     }
 }

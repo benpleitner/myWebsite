@@ -209,5 +209,29 @@ section h2 {
 
     dl {
         width: 100%;
+        padding-top: 0px;
+    }
+
+    #cis120 {
+        padding-top: 20px;
+    }
+}
+
+/* Fix the navbar social media icons on smaller screens */
+#smallScreen {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    #fullWidth {
+        display: none;
+    }
+
+    #smallScreen {
+        display: inherit;
+        margin-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 20px;
     }
 }

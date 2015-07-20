@@ -164,6 +164,10 @@ section h2 {
     background-color: #f2f2f3;
 }
 
+#fill2 {
+    background-color: #f2f2f3;
+}
+
 #smallScreen {
     display: none;
 }
@@ -212,24 +216,5 @@ section h2 {
 
     #cis120 {
         padding-top: 20px;
-    }
-}
-
-/* Fix the navbar social media icons on smaller screens */
-#smallScreen {
-    display: none;
-}
-
-@media (max-width: 767px) {
-    #fullWidth {
-        display: none;
-    }
-
-    #smallScreen {
-        display: inherit;
-        margin-left: 10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        line-height: 20px;
     }
 }

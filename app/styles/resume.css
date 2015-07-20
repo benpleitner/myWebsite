@@ -160,22 +160,3 @@ footer {
     opacity: 1;
     margin-top: 25px;
 }
-
-/* Fix the navbar social media icons on smaller screens */
-#smallScreen {
-    display: none;
-}
-
-@media (max-width: 767px) {
-    #fullWidth {
-        display: none;
-    }
-
-    #smallScreen {
-        display: inherit;
-        margin-left: 10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        line-height: 20px;
-    }
-}

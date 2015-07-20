@@ -13,3 +13,11 @@
     };
   });
 })();
+
+var h = $(window).innerHeight() * (32 / 100);
+$("#resume").css("padding-top", h);
+
+$(window).on('resize', function() {
+  var h = $(window).innerHeight() * (32 / 100);
+  $("#resume").css("padding-top", h);
+});

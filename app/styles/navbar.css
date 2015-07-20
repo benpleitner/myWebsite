@@ -55,7 +55,7 @@ ul.social-network {
     margin-left:0 !important;
     padding: 0;
     position: absolute;
-    top: 50%;
+    top: 49%;
     transform: translate(0, -50%)
 }
 ul.social-network li {
@@ -76,8 +76,8 @@ a.socialIcon:hover, .socialHoverClass {
     display: inline-block;
     position: relative;
     margin: 0 auto 0 auto;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
+    /*-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;*/
     text-align: center;
     width: 20px;
     height: 20px;
@@ -105,4 +105,23 @@ a.socialIcon:hover, .socialHoverClass {
     -o-transition: all 0.8s;
     -ms-transition: all 0.8s;
     transition: all 0.8s;*/
+}
+
+/* Fix the navbar social media icons on smaller screens */
+#sScreen {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    #fullWidth {
+        display: none;
+    }
+
+    #sScreen {
+        display: inherit;
+        margin-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 20px;
+    }
 }
